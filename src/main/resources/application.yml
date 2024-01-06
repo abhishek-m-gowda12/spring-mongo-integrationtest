@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mongo-demo
+  profiles:
+    active: local
+  data:
+    mongodb:
+      database: mongo-demo
+      uri: mongodb://localhost:27017/mongo-demo
